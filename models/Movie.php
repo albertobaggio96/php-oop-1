@@ -11,6 +11,10 @@
       $this->plot = $_plot;
       $this->genre = $_genre;
     }
+
+    public function getName(){
+      return $this->title;
+    }
   }
 
 ?>

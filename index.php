@@ -16,6 +16,7 @@
     $titanic = new Movie("Titanic", "Lorem, ipsum dolor sit amet consectetur adipisicing elit.", "Romantic");
 
     var_dump($backToTheFuture, $titanic);
+    var_dump($titanic->getName());
   ?>
 </body>
 </html>
